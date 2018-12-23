@@ -14,8 +14,6 @@
     <project remote="yocto"     revision="sumo"         name="meta-raspberrypi"     path="sources/meta-raspberrypi" />
     <project remote="yocto"     revision="sumo"         name="meta-security"        path="sources/meta-security" />
     <project remote="jumpnow"   revision="sumo"         name="meta-rpi"             path="sources/meta-rpi" />
-    <project remote="yocto"     revision="sumo"         name="meta-ti"              path="sources/meta-ti" />
-    <project remote="yocto"     revision="sumo"         name="meta-swupd"           path="sources/meta-swupd" />
     <project remote="linh"      revision="master"       name="meta-rpi0-qt5"        path="sources/meta-linh" />
 
 </manifest>
