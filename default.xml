@@ -5,6 +5,8 @@
     <remote name="ghqt5"    fetch="git://github.com/meta-qt5" />
     <remote name="oe"       fetch="git://git.openembedded.org" />
     <remote name="jumpnow"  fetch="git://github.com/jumpnow" />
+    <remote name="bachp"    fetch="git://github.com/bachp" />
+    <remote name="inteliot" fetch="git://github.com/intel-iot-devkit" />
     <default sync-j="4" />
 
     <project remote="linh"      revision="master"       name="yocto-scripts"        path="." />
@@ -15,5 +17,10 @@
     <project remote="yocto"     revision="sumo"         name="meta-security"        path="sources/meta-security" />
     <project remote="jumpnow"   revision="sumo"         name="meta-rpi"             path="sources/meta-rpi" />
     <project remote="linh"      revision="master"       name="meta-walle"           path="sources/meta-walle" />
+
+    <project remote="bachp"     revision="master"       name="meta-homeassistant"   path="sources/meta-homeassistant" />
+    <project remote="yocto"     revision="sumo"         name="meta-java"            path="sources/meta-java" />
+    <project remote="inteliot"  revision="sumo"         name="meta-iot-cloud"       path="sources/meta-iot-cloud" />
+    <project remote="yocto"     revision="sumo"         name="meta-cloud-services"  path="sources/meta-cloud-services" />
 
 </manifest>
